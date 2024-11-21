@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10.2)
 project(joints_interface)
 message( STATUS "\n## Reading ${PROJECT_NAME}/CMakeLists.txt...")
 
-add_compile_definitions(ROSCONSOLE_MIN_SEVERITY=1)
+add_definitions(ROSCONSOLE_MIN_SEVERITY=1)
 
 set(HARDWARE_VERSION "ned2" CACHE STRING "Robot model target")
 # for preprocessor directives
