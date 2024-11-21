@@ -30,6 +30,6 @@
   <exec_depend>python-yaml</exec_depend>
   <exec_depend>python-imaging</exec_depend>
 
-  <test_depend>python3-catkin-lint</test_depend>
+  <test_depend>python-catkin-lint</test_depend>
   <test_depend>roslint</test_depend>
 </package>

@@ -22,6 +22,6 @@
     <exec_depend>rospy</exec_depend>
     <exec_depend>sqlite3</exec_depend>
 
-    <test_depend>python3-catkin-lint</test_depend>
+    <test_depend>python-catkin-lint</test_depend>
     <test_depend>roslint</test_depend>
 </package>
